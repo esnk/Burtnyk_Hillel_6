@@ -1,0 +1,32 @@
+body {
+  margin-left: 0px;
+  margin-top: -16px;
+  padding: 0;
+}
+.head {
+  background-color: #eeeff1;
+}
+.nav_link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+}
+
+.home {
+  color: #34547a;
+}
+
+.first_button {
+  width: 255px;
+  height: 65px;
+  background: #34547a;
+  color: #ffffff;
+  border: none;
+}
+.numbers {
+  width: 1920px;
+  height: 250px;
+  background-color: #34547a;
+}
