@@ -1,150 +1,177 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
 * {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
-a {text-decoration: none;}
+a {
+  text-decoration: none;
+}
 
 ul {
-    margin-top: -8px;
-    margin-bottom: 0;
-    padding: 0;
+  margin-top: -8px;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 li {
-    display: inline-block;
-    margin-right: 42px;
-    margin-top: 79px;
-    margin-bottom: 151px;
+  display: inline-block;
+  margin-right: 42px;
+  margin-top: 79px;
+  margin-bottom: 151px;
 }
 
 .menu {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
-
-h1 {
-    margin: 0;
-    padding: 0;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 164.06%;
-    margin-bottom: 60px;
+.dl {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 164.06%;
+  margin-bottom: 60px;
 }
 
 .hp {
-    color: #34547a;
+  color: #34547a;
 }
 
 .p1 {
-    margin-bottom: 65px;
-    width: 540px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #727272;
+  margin-bottom: 65px;
+  width: 540px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #727272;
 }
 
 .p2 {
-    margin-top: 50px;
-    margin-bottom: 100px;
-    width: 540px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #727272;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 540px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
 }
 
 .b1 {
-    margin-bottom: 141px;
-    padding: 20px 40px;
-    width: 225px;
-    height: 65px;
-    border: none;
-    color: #ffffff;
-    background-color: #34547a;
+  margin-bottom: 141px;
+  padding: 20px 40px;
+  width: 225px;
+  height: 65px;
+  border: none;
+  color: #ffffff;
+  background-color: #34547a;
 }
 
 .container {
-    max-width: 1110px;
-    margin: 0 auto;
+  max-width: 1110px;
+  margin: 0 auto;
 }
-
-.bg-gray {
-    background: #eeeff1;
-}
-
 .container2 {
-    max-width: 540px;
-    margin: 0 auto;
+  max-width: 540px;
+  margin: 0 auto;
+}
+.container3 {
+  margin-top: 57px;
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.container4 {
+  max-width: 1110px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.bg-gray {
+  background: #eeeff1;
+}
+
+.bg-blue {
+  background: #34547a;
+  height: 250px;
+}
+.bg-blue-2 {
+  background: #34547a;
+  height: 151px;
+  padding-top: 50px;
 }
 
 .am {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 38px;
-    text-align: center;
-    margin-top: 112px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  margin-top: 112px;
 }
 .hdiw {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 38px;
-    text-align: center;
-    margin-top: 100px;}
-
-.bg-blue {
-    background: #34547a;
-    height: 250px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .projects {
-    margin-top: 100px;
-    margin-right: 45px;
-    min-width: 141px;
-    width: 140px;
-    height: 50px;
-    color: #ffffff;
+  margin-top: 100px;
+  margin-right: 45px;
+  min-width: 141px;
+  width: 140px;
+  height: 50px;
+  color: #ffffff;
 }
 
 .inline-item {
-    display: inline-block;
-    padding-left: 10px;
+  display: inline-block;
+  padding-left: 10px;
 }
 
 .p500 {
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 25px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
 }
 
 .p400 {
-    padding-top: 10px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .a40p {
-    display: flex;
-    max-width: 1070px;
-    margin: 0 auto;
+  display: flex;
+  max-width: 1070px;
+  margin: 0 auto;
 }
 
 img {
-    margin-right: 10px;
+  margin-right: 10px;
+}
+.John {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+}
+.fp {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
 }
